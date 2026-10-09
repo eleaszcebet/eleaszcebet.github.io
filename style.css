@@ -1,0 +1,210 @@
+/* stage 7·5a · slide: s6-render · indicators 2, 7 · end state */
+/* Little Lemon — style.css
+   Built in class order. Each block is added on one deck section. */
+
+/* ===== 1. A first rule: element selectors (§2) ===== */
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #3D3032;
+  background-color: #F8F4F0;
+}
+
+h1,h2 {
+  color: #653F46;
+}
+
+/* ===== 2. Selectors: id, class, descendant, child, :hover (§2) ===== */
+
+#site-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #653F46;
+}
+
+#tagline {
+  color: #8D7475;
+  font-style: italic;
+}
+
+.price {
+  font-weight: bold;
+  color: #B86B00;
+}
+
+header a {
+  color: #653F46;
+  text-decoration: none;
+}
+
+nav > ul > li > a {
+  color: #653F46;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #A66C76;
+}
+
+a.current {
+  font-weight: bold;
+  color: #653F46;
+}
+
+/* ===== 3. Colour and text (§3) ===== */
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+footer {
+  color: #FCFDFC;
+  background-color: #064E4F;
+  font-size: 14px;
+}
+
+/* ===== 4. Box model (§4) ===== */
+
+main {
+  width: 720px;
+  padding: 24px;
+  border: 1px solid #B9CECE;
+}
+
+.dish {
+  min-height: 135px;
+  padding: 16px;
+  margin-bottom: 24px;
+  border: 1px solid #E7D8D4;
+  background-color: #FFFFFF;
+}
+
+table, th, td {
+  border: 1px solid #D8C2BE;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px 16px;
+}
+
+th {
+  background-color: #E8EFEF;
+}
+
+footer {
+  padding: 16px 24px;
+  background-color: #653F46;
+  color: #F8F4F0;
+}
+
+/* ===== 5. Document flow and alignment (§5) ===== */
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 24px;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+.dish img {
+  float: right;
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+
+.dish h2 {
+  margin-top: 0px;
+}
+
+footer {
+  text-align: center;
+}
+
+/* ===== 6. States and messages set by script (Week 5) ===== */
+
+.open {
+  color: #52745C;
+  font-weight: bold;
+}
+
+.closed {
+  color: #9A6B43;
+  font-weight: bold;
+}
+
+#seating-note, #requests-count {
+  color: #5F7171;
+  font-size: 14px;
+}
+
+#form-message {
+  color: #8D7475;
+  font-weight: bold;
+}
+
+
+
+/* ===== Burgundy Elegant Header ===== */
+
+header {
+  background-color: #653F46;
+  color: #FFFFFF;
+  padding: 24px 20px;
+  margin: 12px;
+  border-radius: 16px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#site-name {
+  color: #FFFFFF;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin: 0 0 8px;
+}
+
+#tagline {
+  color: #E8CFCB;
+  font-size: 16px;
+  margin: 0 0 14px;
+}
+
+header a {
+  color: #FFFFFF;
+}
+
+nav > ul > li > a {
+  color: #FFFFFF;
+  transition: color 0.2s ease;
+}
+
+nav > ul > li > a:hover {
+  color: #E8CFCB;
+  text-decoration: none;
+}
+
+a.current {
+  color: #E8CFCB;
+  font-weight: bold;
+}
